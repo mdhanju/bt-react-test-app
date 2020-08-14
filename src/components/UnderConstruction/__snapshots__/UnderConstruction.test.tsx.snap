@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UnderConstruction /> should render properly without crashing 1`] = `
+Array [
+  <ContentHolder>
+    Under Construction
+  </ContentHolder>,
+]
+`;

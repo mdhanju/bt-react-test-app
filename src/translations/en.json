@@ -1,0 +1,8 @@
+{
+    "app.name": "Sample App",
+    "app.footername": "Blue Triangle.",
+    "nav.home": "Home",
+    "nav.help": "Help",
+    "errorboundry.error": "System error encountered. Try again...",
+    "err.page.system.error": "An error occured while loading configuration."
+}

@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Menu /> should render properly without crashing 1`] = `
+Array [
+  <React.Fragment>
+    <Navbar
+      className="mt-3"
+      expand="md"
+      light={true}
+      tag="nav"
+    >
+      <Nav
+        className="mx-auto"
+        navbar={true}
+        tag="ul"
+        vertical={false}
+      >
+        <NavItem
+          tag="li"
+        >
+          <NavLink
+            activeClassName="active"
+            exact={true}
+            tag={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "displayName": "NavLink",
+                "propTypes": Object {
+                  "activeClassName": [Function],
+                  "activeStyle": [Function],
+                  "aria-current": [Function],
+                  "className": [Function],
+                  "exact": [Function],
+                  "innerRef": [Function],
+                  "isActive": [Function],
+                  "location": [Function],
+                  "onClick": [Function],
+                  "replace": [Function],
+                  "strict": [Function],
+                  "style": [Function],
+                  "target": [Function],
+                  "to": [Function],
+                },
+                "render": [Function],
+              }
+            }
+            to="/"
+          >
+            <h3>
+              Home
+            </h3>
+          </NavLink>
+        </NavItem>
+        <NavItem
+          tag="li"
+        >
+          <h2>
+             - 
+          </h2>
+        </NavItem>
+        <NavItem
+          tag="li"
+        >
+          <NavLink
+            activeClassName="active"
+            exact={true}
+            tag={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "displayName": "NavLink",
+                "propTypes": Object {
+                  "activeClassName": [Function],
+                  "activeStyle": [Function],
+                  "aria-current": [Function],
+                  "className": [Function],
+                  "exact": [Function],
+                  "innerRef": [Function],
+                  "isActive": [Function],
+                  "location": [Function],
+                  "onClick": [Function],
+                  "replace": [Function],
+                  "strict": [Function],
+                  "style": [Function],
+                  "target": [Function],
+                  "to": [Function],
+                },
+                "render": [Function],
+              }
+            }
+            to="/sample"
+          >
+            <h3>
+              Sample Form
+            </h3>
+          </NavLink>
+        </NavItem>
+      </Nav>
+    </Navbar>
+    <DropdownItem
+      divider={true}
+      tag="button"
+      toggle={true}
+    />
+  </React.Fragment>,
+]
+`;

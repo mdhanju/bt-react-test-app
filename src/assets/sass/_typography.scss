@@ -1,0 +1,21 @@
+html {
+    font-size: 10px;
+    line-height: 1;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+$weight-array:( book: "Gotham 4r", light: "Gotham 3r", medium: "Gotham 5r", bold: "Gotham 7r");
+
+
+@each $weight-name,
+  $weight-value in $weight-array {
+  // single-dash is preferred, but will support double-dash for legacy implementations
+  .hca-#{$weight-name},
+  .\--#{$weight-name} { // escpaed double hyphen for IE and legacy mobile Safari suport
+    font-family: $weight-value;
+  }
+}

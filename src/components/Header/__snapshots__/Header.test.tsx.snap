@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should render properly without crashing 1`] = `
+Array [
+  <header
+    className=""
+    id="btrc-Header"
+  >
+    <div
+      className="container-fluid"
+    >
+      <div
+        className="logo"
+      >
+        <Image
+          alt="brand logo"
+          className="mobile-hide"
+          src="logo-white.png"
+        />
+        <Image
+          alt="mobile brand logo"
+          className="mobile-logo desktop-hide"
+          src="bt-icon.svg"
+        />
+        <span
+          className="app-name"
+        >
+          <FormattedMessage
+            id="app.name"
+            values={Object {}}
+          />
+        </span>
+      </div>
+    </div>
+  </header>,
+]
+`;

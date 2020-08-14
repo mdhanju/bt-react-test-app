@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AppRouter /> should render initial layout - ERROR 1`] = `
+Array [
+  <IntlProvider
+    defaultFormats={Object {}}
+    defaultLocale="en"
+    formats={Object {}}
+    locale="en"
+    messages={
+      Object {
+        "app.footername": "Blue Triangle, Inc.",
+        "app.name": "Sample App",
+        "err.page.system.error": "An error occured while loading configuration.",
+        "errorboundry.error": "System error encountered. Try again...",
+        "nav.help": "Help",
+        "nav.home": "Home",
+      }
+    }
+    onError={[Function]}
+    textComponent={Symbol(react.fragment)}
+  >
+    <AppRouter
+      isAppInitialized="ERROR"
+    />
+  </IntlProvider>,
+]
+`;
+
+exports[`<AppRouter /> should render initial layout - INPROGRESS 1`] = `
+Array [
+  <IntlProvider
+    defaultFormats={Object {}}
+    defaultLocale="en"
+    formats={Object {}}
+    locale="en"
+    messages={
+      Object {
+        "app.footername": "Blue Triangle, Inc.",
+        "app.name": "Sample App",
+        "err.page.system.error": "An error occured while loading configuration.",
+        "errorboundry.error": "System error encountered. Try again...",
+        "nav.help": "Help",
+        "nav.home": "Home",
+      }
+    }
+    onError={[Function]}
+    textComponent={Symbol(react.fragment)}
+  >
+    <AppRouter
+      isAppInitialized="INPROGRESS"
+    />
+  </IntlProvider>,
+]
+`;
+
+exports[`<AppRouter /> should render initial layout - SUCCESS 1`] = `
+Array [
+  <IntlProvider
+    defaultFormats={Object {}}
+    defaultLocale="en"
+    formats={Object {}}
+    locale="en"
+    messages={
+      Object {
+        "app.footername": "Blue Triangle, Inc.",
+        "app.name": "Sample App",
+        "err.page.system.error": "An error occured while loading configuration.",
+        "errorboundry.error": "System error encountered. Try again...",
+        "nav.help": "Help",
+        "nav.home": "Home",
+      }
+    }
+    onError={[Function]}
+    textComponent={Symbol(react.fragment)}
+  >
+    <AppRouter
+      isAppInitialized="SUCCESS"
+    />
+  </IntlProvider>,
+]
+`;

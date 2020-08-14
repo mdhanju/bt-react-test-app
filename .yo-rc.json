@@ -1,0 +1,15 @@
+{
+  "generator-bt-create-react-app": {
+    "promptValues": {
+      "engineNode": "12.13.0"
+    },
+    "name": "test-app-bt",
+    "gitRepoPath": "",
+    "description": "",
+    "engineNode": "12.13.0",
+    "generate": "reactonly",
+    "docker": true,
+    "typing": "typescript",
+    "ui": "reactstrap"
+  }
+}

@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ContentHolder /> should render initial layout 1`] = `
+Array [
+  <Container
+    className="d-flex flex-column"
+    fluid={true}
+    tag="div"
+  >
+    <Menu />
+    <Row
+      className="h-100 align-self-center"
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <Col
+        className="my-auto"
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      />
+    </Row>
+  </Container>,
+]
+`;

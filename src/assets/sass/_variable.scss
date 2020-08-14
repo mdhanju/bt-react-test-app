@@ -1,0 +1,43 @@
+// application
+$bt-blue:#0078b3;
+$silver: #d3d6dc;
+$graphite: #e9ebee;
+$dark-indigo: #0d1c3d;
+$white: #ffffff;
+$black: #000000;
+$dark-silver: #b6b6b6;
+$btn-color: #006ba6;
+$dark-silver: #b6b6b6;
+$modal-border: #979797;
+$red:#b63125;
+$red-fade:#fbf4f4;
+$green:#34c759;
+$blue-grey: #8e8e93;
+
+$font-size-base: 1.6rem !default;
+$font-family-base: "Gotham 3r" !default;
+
+
+//bootstrap overwrite
+$theme-colors: (
+  "primary": $btn-color
+);
+
+.btn {
+  @extend .hca-medium;
+  border-radius: 0;
+  height: 4.9rem;
+
+  &-outline-primary {
+    border: 2px solid map-get($map: $theme-colors, $key: "primary");
+  }
+  &.btn-primary:disabled {
+    background-color: $dark-silver;
+    border-color: $dark-silver;
+  }
+
+  &:disabled {
+    background-color: $dark-silver;
+    border-color: $dark-silver;
+  }
+}

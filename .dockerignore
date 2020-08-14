@@ -1,0 +1,12 @@
+*
+
+# White list only the required files
+!src/
+!public/
+!flow-typed/
+!package.json
+!package-lock.lock
+!mock/
+!config-overrides.js
+!tsconfig.json
+!.flowconfig

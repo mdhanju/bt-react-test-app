@@ -1,0 +1,66 @@
+/* Container styles import here */
+
+#bt-web-appname {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    .container-fluid {
+        padding-right: 3rem;
+        padding-left: 3rem;
+
+        @include media ($device) {
+            padding-right: 1.6rem;
+            padding-left: 1.6rem;
+        }
+    }
+
+    &>* {
+        display: flex;
+    }
+
+    &>main {
+        flex-grow: 1;
+        padding: 1.4rem 0;
+        flex-direction: column;
+
+        @include media-breakpoint-down(sm) {
+            &.container-fluid {
+                padding: 0;
+            }
+        }
+
+        &>* {
+            display: flex;
+        }
+    }
+
+    .cp-main-section {
+        flex-grow: 1;
+        justify-content: center;
+
+        @include media-breakpoint-down(sm) {
+            padding-left: 1.6rem;
+            padding-right: 1.6rem;
+            padding-bottom: 2rem;
+        }
+    }
+
+    .under-construction {
+        display: flex;
+        align-items: center;
+        font-size: 2rem;
+    }
+}
+
+.mobile-hide {
+    @include media-breakpoint-down(sm) {
+        display: none;
+    }
+}
+
+.desktop-hide {
+    @include media-breakpoint-up(md) {
+        display: none;
+    }
+}

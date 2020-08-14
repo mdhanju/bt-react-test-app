@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home /> should render properly without crashing 1`] = `
+Array [
+  <ContentHolder>
+    <img
+      alt="background"
+      src="home-bg.png"
+    />
+  </ContentHolder>,
+]
+`;

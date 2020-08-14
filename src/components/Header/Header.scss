@@ -1,0 +1,49 @@
+header {
+    &#btrc-Header {
+        background-color: $bt-blue;
+        color: $white;
+        height: 8.7rem;
+        min-height: 8.7rem;
+        display: flex;
+        align-items: center;
+        align-content: center;
+
+        .container-fluid {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            flex-wrap: nowrap;
+
+            .logo {
+                .mobile-logo {
+                    width: 3.2rem;
+                    height: 3.2rem;
+                }
+            }
+
+            @include media-breakpoint-down(sm) {
+                padding: 0;
+            }
+        }
+
+        .logo {
+            display: flex;
+            align-items: baseline;
+
+            @include media-breakpoint-down(sm) {
+                align-items: center;
+                margin-left: 1.6rem;
+            }
+
+            .app-name {
+                margin-left: 2rem;
+                font-size: 2rem;
+                letter-spacing: -0.032rem;
+
+                @include media-breakpoint-down(sm) {
+                    font-size: 1.8rem;
+                }
+            }
+        }
+    }
+}

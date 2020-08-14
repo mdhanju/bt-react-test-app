@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> should render initial layout 1`] = `
+Array [
+  <footer
+    className="container-fluid"
+    id="btrc-Footer"
+  >
+    © 
+    2020
+     
+    <FormattedMessage
+      description="Footer name showing Blue Triangle name"
+      id="app.footername"
+      values={Object {}}
+    />
+  </footer>,
+]
+`;

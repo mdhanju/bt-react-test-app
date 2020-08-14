@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ErrorPage /> should render initial layout 1`] = `
+Array [
+  <ContentHolder>
+    <FormattedMessage
+      description="system Error"
+      id="err.page.system.error"
+      values={Object {}}
+    />
+  </ContentHolder>,
+]
+`;

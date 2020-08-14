@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LoadingSpinner /> should render properly without crashing 1`] = `
+Array [
+  <ContentHolder>
+    <div
+      className="spinner-border"
+    />
+  </ContentHolder>,
+]
+`;
